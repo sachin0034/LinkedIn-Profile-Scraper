@@ -73,3 +73,37 @@ After the script has completed, you will find a `linkedin_profiles.json` file co
 The script includes several error-handling mechanisms to ensure smooth execution:
 - Handles `TimeoutException`, `NoSuchElementException`, and `StaleElementReferenceException` when interacting with page elements.
 - Includes `traceback` for detailed error messages.
+
+## Example Data Format
+
+```bash
+[
+  {
+    "url": "https://www.linkedin.com/in/arjuna-venkatesh-548779166?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAACef6sgBlmhf2olh2CdQCt4q6RA5CAWE5Ss",
+    "name": "Arjuna Venkatesh",
+    "description": "Founder & CEO at Ippy Wellbeing | Chief Revenue Officer at BodhBridge ESPL",
+    "location": "Chennai, Tamil Nadu, India",
+    "about": "Arjun is the Founder & CEO at Ippy - a 'Well-being' company incubated at IIT Madras. He has an MS in Management Studies (HR & OB) from IIT Madras. Ippy is an outcome of his research in 'Work as a Calling'. ...",
+    "experience": [
+      {
+        "company_name": "BodhBridge ESPL · Part-time",
+        "date_range": "Sep 2021 - Present · 3 yrs",
+        "duration": "Chennai, Tamil Nadu, India"
+      },
+      {
+        "company_name": "Ippy Wellbeing",
+        "date_range": "Jan 2018 - Present · 6 yrs 8 mos",
+        "duration": "Chennai Area, India"
+      },
+      ...
+    ],
+    "education": [],
+    "has_profile_picture": false,
+    "number_connections": null,
+    "number_recommendations": null,
+    "interests": [],
+    "latest_posts": []
+  }
+]
+
+```
