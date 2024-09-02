@@ -73,11 +73,3 @@ After the script has completed, you will find a `linkedin_profiles.json` file co
 The script includes several error-handling mechanisms to ensure smooth execution:
 - Handles `TimeoutException`, `NoSuchElementException`, and `StaleElementReferenceException` when interacting with page elements.
 - Includes `traceback` for detailed error messages.
-
-## Contributions
-
-Feel free to fork this repository, submit pull requests, and suggest improvements!
-
-## License
-
-This project is licensed under the MIT License.
